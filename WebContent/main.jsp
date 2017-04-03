@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>DBMS group 6 Online shopping</title>
+<title>Home</title>
 <style type="text/css">
 .right {
 	text-align: right;
@@ -26,17 +26,17 @@
 <%@ page language="java" %>
 <table width="993" height="330" border="0">
   <tr>
-    <td width="205" height="89"><img src="head.png" width="251" height="88" alt="Logo" />
+    <td width="205" height="89">< img src="head.png" width="251" height="88" alt="Logo" />
     <hr /></td>
     <td width="772"><table width="723" height="88" border="0">
       <tr>
         <td width="713" class="right">24X7 Customer Support - Contact us  | Home | 
         <% if(session.getAttribute("uname")==null) {
 			%>
-            <a href="login.jsp">Login</a> | <a href="register.jsp">Signup</a>
+            < a href=" ">Login</ a> | < a href="register.jsp">Signup</ a>
             <%} else {
 				%>
-                <a href="logout.jsp">Logout</a>
+                < a href="logout.jsp">Logout</ a>
                 <%}%>
                 </td>
       </tr>
@@ -60,30 +60,34 @@
           </tr>
           <tr>
             <td><form action="category.jsp">
-            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Samsung" /><input type="image" src="images/sam.png" /></form></td>
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Books" /><input type="submit" value="Books" /></form></td>
           </tr>
           <tr>
             <td><form action="category.jsp">
-            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Nokia" /><input type="image" src="images/nok.png" /></form></td>
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Automotive" /><input type="submit" value="Automotive" /></form></td>
           </tr>
           <tr>
             <td><form action="category.jsp">
-            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Sony" /><input type="image" src="images/son.png" /></form></td>
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Phones" /><input type="submit" value="Phones" /></form></td>
           </tr>
           <tr>
             <td height="22"><form action="category.jsp">
-            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="HTC" /><input type="image" src="images/htc.png" /></form></td>
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Movies" /><input type="submit" value="Movies" /></form></td>
           </tr>
           <tr>
             <td><form action="category.jsp">
-            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="LG" /><input type="image" src="images/lg.png" /></form></td>
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Electronics" /><input type="submit" value="Electronics" /></form></td>
+          </tr>
+          <tr>
+            <td><form action="category.jsp">
+            <input type="hidden" name="type" value="brand" /><input type="hidden" name="category" value="Home" /><input type="submit" value="Books" /></form></td>
           </tr>
         </table></td>
       </tr>
       <tr>
         <td height="201"><table width="243" height="180" border="0">
           <tr>
-            <td width="233" class="normal">MOBILE TYPES</td>
+            <td width="233" class="normal">MOBILE TYPES to be delete</td>
           </tr>
           <tr>
             <td><form action="category.jsp">
@@ -124,8 +128,8 @@
 </form></td>
               </tr>
             </table>
-              <p class="center1">Samsung Galaxy Grand</p>
-              <p class="center1">Rs. 21,500</p>
+              <p class="center1">Samsung Galaxy Grand</p >
+              <p class="center1">Rs. 21,500</p >
             </td>
             <td width="240" class="center1"><table width="117" height="173" border="0" align="center">
               <tr>
@@ -134,9 +138,9 @@
 <input name="buy" type="image" value="s4" src="images/in_GT-I9500ZWAINU_042_Front_black.jpg" width="100" height="165"> 
 </form></td>
               </tr>
-            </table></p>
-              <p>Samsung Galaxy S4</p>
-              <p>Rs. 41,500</p></td>
+            </table></p >
+              <p>Samsung Galaxy S4</p >
+              <p>Rs. 41,500</p ></td>
             <td width="224"><table width="120" height="173" border="0" align="center">
               <tr>
                 <td><form action="product.jsp"> 
@@ -145,8 +149,8 @@
 </form></td>
               </tr>
             </table>
-              <p class="center1">LG Optimus G Pro</p>
-              <p class="center1">Rs. 38,970</p>
+              <p class="center1">LG Optimus G Pro</p >
+              <p class="center1">Rs. 38,970</p >
             </td>
           </tr>
         </table></td>
